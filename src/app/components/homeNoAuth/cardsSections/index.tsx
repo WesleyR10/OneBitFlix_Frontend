@@ -1,12 +1,7 @@
 'use client'
 
-import Image from "next/image";
-import buttonPlay from "../../../../../public/buttonPlay.svg"
-import imgPresentation from "../../../../../public/homeNoAuth/imgPresentation.png"
-import iconArrowDown from "../../../../../public/homeNoAuth/iconArrowDown.svg"
 import styles from "./styles.module.scss";
-import { Row, Container, Col, Button } from "reactstrap";
-import Link from "next/link";
+import { Container } from "reactstrap";
 
 const CardsSection = () => {
   return (
