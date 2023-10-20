@@ -31,7 +31,7 @@
 
 @media (max-width: 580px) {
   .nav {
-    justify-content: space-evenly;
+    padding: 0 12px;
   }
 
 }
@@ -45,6 +45,10 @@
     margin: 16px 11px;
     border-color: white;
     font-size: 14px;
+  }
+
+  .imgCta {
+    margin: 0px 8px;
   }
 
   .ctaSection {

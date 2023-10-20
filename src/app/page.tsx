@@ -2,6 +2,7 @@ import Head from "next/head";
 import styles from "../../styles/homeNoAuth.module.scss"
 import { Metadata } from "next";
 import HeaderNoAuth from "./components/homeNoAuth/headerNoAuth";
+import PresentationSection from "./components/homeNoAuth/presentationSection";
 
 export const metadata: Metadata = {
   title: 'Onebitflix',
@@ -14,7 +15,10 @@ const HomeNotAuth = function () {
       <Head>
       </Head>
       <main>
-        <HeaderNoAuth />
+        <div className={styles.sectionBackground}>
+          <HeaderNoAuth />
+          <PresentationSection />
+        </div>
       </main>
     </>
   )
