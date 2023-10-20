@@ -1,6 +1,7 @@
 import Head from "next/head";
-import styles from "../../styles/HomeNoAuth.module.scss"
+import styles from "../../styles/homeNoAuth.module.scss"
 import { Metadata } from "next";
+import HeaderNoAuth from "./components/homeNoAuth/headerNoAuth";
 
 export const metadata: Metadata = {
   title: 'Onebitflix',
@@ -12,7 +13,9 @@ const HomeNotAuth = function () {
     <>
       <Head>
       </Head>
-      <main></main>
+      <main>
+        <HeaderNoAuth />
+      </main>
     </>
   )
 };
