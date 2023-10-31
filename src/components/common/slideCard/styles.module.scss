@@ -33,3 +33,22 @@
   padding: 8px 16px;
   color: #CCC8C8;
 }
+
+@media (max-width: 1200px) {
+  .slide {
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .slide {
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 300px) {
+  .slide {
+    width: 100%;
+    margin-left: 0;
+  }
+}
