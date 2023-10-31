@@ -7,6 +7,7 @@ import SlideSection from "../src/components/homeNoAuth/slideSection";
 import courseService, { CourseType } from "@/services/courseService";
 import { ReactNode } from "react";
 import { GetStaticProps } from "next";
+import Footer from "@/components/common/footer";
 
 interface IndexPageProps {
   children?: ReactNode;
@@ -31,6 +32,7 @@ const HomeNotAuth = function ({ course }: IndexPageProps) {
         </div>
         <CardsSection />
         <SlideSection newestCourses={course} />
+        <Footer />
       </main>
     </>
   )
