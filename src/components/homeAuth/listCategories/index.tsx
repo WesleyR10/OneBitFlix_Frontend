@@ -5,9 +5,6 @@ import ListCategoriesSlide from '../listCategoriesSlide';
 const ListCategories = function () {
   const { data, error } = useSWR("/listCategories", categoriesService.getCategories);
 
-  console.log("data:", data);
-  console.log("error:", error);
-
   if (error) return error
   if (!data) return (
     <>
