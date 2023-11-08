@@ -31,7 +31,7 @@ const UserInfo = function () {
             </Col>
           </Row>
         </Container>
-        <div className={styles.footer}>
+        <div className={`${form === "userForm" ? styles.footer : styles.absoluteFooter}`}>
           <Footer />
         </div>
       </main>

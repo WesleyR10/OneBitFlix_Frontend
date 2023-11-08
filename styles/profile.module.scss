@@ -152,6 +152,13 @@
   background-color: black;
 }
 
+.absoluteFooter {
+  background-color: black;
+  position: absolute;
+  bottom: 0;
+  width: 100%
+}
+
 @media (max-width: 991px) {
   .title {
     text-align: center;
