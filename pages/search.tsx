@@ -44,7 +44,7 @@ const Search = function () {
         ) : (
           <p className={styles.noSearchText}>Nenhum resultado encontrado!</p>
         )}
-        <div className={styles.headFooterBg}>
+        <div className={`${searchResult.length >= 1 ? styles.headFooterBg : styles.headFooterAbsolute}`}>
           <Footer />
         </div>
       </main>
