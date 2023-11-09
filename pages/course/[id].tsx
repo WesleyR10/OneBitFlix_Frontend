@@ -100,7 +100,7 @@ const CoursePage = function () {
               <strong>Não temos episódios ainda, volte outra hora! &#x1F606;&#x1F918;</strong>
             </p>
           ) : (course?.episodes?.map((episode) => (
-            <EpisodeList key={episode.id} episode={episode} />
+            <EpisodeList key={episode.id} episode={episode} course={course} />
           )))}
         </Container>
         <Footer />
