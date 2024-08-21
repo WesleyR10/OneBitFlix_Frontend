@@ -18,7 +18,7 @@
     "react-dom": "^18",
     "react-loader-spinner": "^5.4.5",
     "react-modal": "^3.16.1",
-    "react-player": "^2.13.0",
+    "react-player": "^2.16.0",
     "reactstrap": "^9.2.0",
     "sass": "^1.69.4",
     "swr": "^2.2.4"
